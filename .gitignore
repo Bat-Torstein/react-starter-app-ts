@@ -1,0 +1,6 @@
+# compiled output
+/dist/main.js
+
+# dependencies
+/node_modules
+dist/main.js.LICENSE.txt
