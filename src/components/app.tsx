@@ -3,7 +3,7 @@ import { useState } from 'react';
 import '../styles/styles.scss';
 
 import ErrorBoundary from './error-boundary';
-import Test from './test';
+import Example from './Example';
 
 export default function App() {
   const [count, setCount] = useState(0);
@@ -19,7 +19,7 @@ export default function App() {
       <br />
       <br />
       <button onClick={() => setCount(count + 1)}>{count}</button>
-      <Test test={true}/>
+      <Example test={true}/>
     </div>
     </ErrorBoundary>
   );
